@@ -1,4 +1,4 @@
-# 6-Week OOP Sprint
+﻿# 6-Week Kotlin OOP Sprint
 
 ## Rule
 
@@ -22,7 +22,6 @@
 ## Review Prompt
 
 ```text
-이 코드를 실무 백엔드 시니어 관점에서 리뷰해줘.
-상태 전이, 예외 처리, 테스트 가능성, 동시성 위험 위주로 봐줘.
+이 Kotlin 코드를 실무 백엔드 시니어 관점에서 리뷰해줘.
+상태 전이, 예외 처리, 테스트 가능성, 동시성 위험, Kotlin idiom 위주로 봐줘.
 ```
-
