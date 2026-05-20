@@ -1,0 +1,19 @@
+plugins {
+    id "java"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.register("checkSettlement", JavaExec) {
+    group = "verification"
+    description = "Runs the settlement state machine tests without external test libraries."
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = "com.onezero.oop.settlement.SettlementTest"
+}
+
+check.dependsOn("checkSettlement")
+
